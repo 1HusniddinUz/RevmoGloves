@@ -41,7 +41,7 @@ const MainTop = () => {
                 <h1>50% gacha saqlaning</h1>
                 <p>Turli sohalar uchun yuqori sifatli qo'lqoplar. Nitril, vinil, lateks, kauchuk va boshqa ko'plab qo'lqop variantlarini ko'rib chiqing.</p>
                 <a href="/contact" >
-                    <button>HOZIROQ TEKSHIRING</button>
+                    <button>HOZIROQ TEKSHIRISH</button>
                 </a>
             </div>
             <div id="MainHero_Overlay"></div>
