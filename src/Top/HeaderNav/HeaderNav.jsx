@@ -1,25 +1,30 @@
 import React from "react";
 import "./HeaderNav.css";
-const HeaderNav = () => {
+import { useTranslation } from "react-i18next";
+const HeaderNav = ({changeLang}) => {
+  const { t } = useTranslation();
+  const changeLangHandler = (e) =>{
+    changeLang(e.target.value)
+  }
   return (
     <div id="HeaderNav">
       <div className="container">
         <div id="HeaderLogo">
-          <a href="/"><img src="https://i.ibb.co/Ld43pF77/image-removebg-preview-4.png" alt="CompanyLogo" style={{height: "60px"}} /></a>
+          <a href="/"><img src="https://i.ibb.co/Ld43pF77/image-removebg-preview-4.png" alt="CompanyLogo" style={{height: "50px"}} /></a>
         </div>
         <div id="HeaderTools">
           <ul>
             <li>
-              <a href="#Header">Bosh sahifa</a>
+              <a href="#Header">{t(`home`)}</a>
             </li>
             <li>
-              <a href="#MainBottom">Biz haqimizda</a>
+              <a href="#MainBottom">{t(`about`)}</a>
             </li>
             <li>
-              <a href="#MainFeatureProducts">Mahsulotlar</a>
+              <a href="#MainFeatureProducts">{t(`products`)}</a>
             </li>
             <li>
-              <a href="#Footer">Kontaktlar</a>
+              <a href="#Footer">{t(`contact`)}</a>
             </li>
           </ul>
         </div>
@@ -36,6 +41,20 @@ const HeaderNav = () => {
           <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
           <i class="fa-brands fa-youtube"></i>
           </a>
+          <select id="select"
+          onChange={changeLangHandler}
+          defaultValue="en"
+          style={{
+            backgroundColor: "transparent",
+            border: "1px solid #333",
+            padding: "7px 20px",
+            color: "black"
+          }}
+          >
+            <option value="uz">Uzbek</option>
+            <option value="en">English</option>
+            <option value="ru">Russian</option>
+          </select>
         </div>
       </div>
     </div>

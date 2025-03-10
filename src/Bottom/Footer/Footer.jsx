@@ -1,13 +1,15 @@
 import React from "react";
 import "./Footer.css";
+import { useTranslation } from "react-i18next";
 const Footer = () => {
+  const { t } = useTranslation();
   return (
     <footer id="Footer">
       <div id="FooterContainer">
         <div id="FooterData">
           <div id="FooterDataCard">
             <div id="FooterDataSCard">
-              <h4>Kontaktlar</h4>
+              <h4>{t(`footerH31`)}</h4>
               <ul>
                 <li>
                   <a
@@ -15,17 +17,17 @@ const Footer = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Tel: +998(90)-637-10-01
+                    {t(`footerPhone`)} +998(90)-637-10-01
                   </a>
                 </li>
-                <li>Bosh Menejer: Shokhida Naimova</li>
+                <li>{t(`footerPosition`)} Shokhida Naimova</li>
                 <li>
                   <a
                     href="https://example@gmail.com"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    E-pochta: example@gmail.com
+                    {t(`footerEmail`)}: example@gmail.com
                   </a>
                 </li>
               </ul>
@@ -38,17 +40,17 @@ const Footer = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Tel: +998(90)-637-10-01
+                  {t(`footerPhone`)} +998(90)-637-10-01
                   </a>
                 </li>
-                <li>Menejer: Shokhida Naimova</li>
+                <li>{t(`footerPosition2`)} Shokhida Naimova</li>
                 <li>
                   <a
                     href="https://example@gmail.com"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {"E-mail: example@gmail.com"}
+                    {t(`footerEmail`)} example@gmail.com
                   </a>
                 </li>
               </ul>
@@ -57,7 +59,7 @@ const Footer = () => {
           <div id="FooterDataCard">
             <div id="FooterDataSCard">
               <h4>
-                Manzil
+                {t(`footerH32`)}
                 <a href="https://maps.google.com/maps?q=39.751372,64.453918&ll=39.751372,64.453918&z=16" target="_blank" rel="noopener noreferrer">
                   <i
                     style={{ fontSize: "1rem" }}
@@ -76,7 +78,7 @@ const Footer = () => {
           </div>
           <div id="FooterDataCard">
             <div id="FooterDataSCard">
-              <h4>Biz haqimizda</h4>
+              <h4>{t(`footerH33`)}</h4>
               <ul>
                 <li dangerouslySetInnerHTML={{ __html: "All About" }} />
               </ul>

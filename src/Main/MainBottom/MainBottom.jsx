@@ -1,5 +1,6 @@
 import React from "react";
 import "./MainBottom.css";
+import { useTranslation } from "react-i18next";
 
 const ProductGloves = [
   {
@@ -28,6 +29,7 @@ const ProductGloves = [
   },
 ];
 const MainBottom = () => {
+  const { t } = useTranslation();
   return (
     <div id="MainBottom">
       <div id="MainFeature">
@@ -35,24 +37,24 @@ const MainBottom = () => {
           <div id="FeatureGloves"></div>
           <div id="FeatureGlovesInfo">
             <div id="FeatureGlovesText">
-              <h2>Ish uchun to'g'ri ish qo'lqoplarini tanlang</h2>
+              <h2>{t(`mainTopH3`)}</h2>
               <p>
-              Muayyan ish muhitingiz uchun mos qo'lqoplardan foydalanish muhimligini sizga aytishimiz shart emas. Biz ularni himoya qilish imkon qadar oson ekanligiga ishonch hosil qilamiz. Rezina qo'lqoplar tanlovimizni ko'rib chiqing va bir necha marta bosish orqali buyurtmangizni sizga yuboring. Bu yerda bizning veb-saytimizda siz kimyo darsisiz yoki kichik bosma nashrlarsiz o‘zingizga kerak bo‘lgan barcha xavfsizlik va foydalanish ma’lumotlarini olishingiz mumkin – aniq nima kerakligini bilasizmi yoki biror yo‘nalishdan foydalanishingiz mumkinmi, biz yordam berishga tayyormiz.
+              {t(`mainTopP1`)}
               </p>
               <p>
-              Sizga nitril qo'lqoplar yoki lateks qo'lqoplar, changsiz yoki suv o'tkazmaydigan qo'lqoplar yoki mahkam o'rinli yoki qo'shimcha tutqich kerak bo'ladimi, Gloves.com saytida to'g'ri juftlikni topishingiz mumkin. Bizda faqat sinovdan o'tgan, yaxshi sifatli rezina qo'lqoplar mavjud bo'lib, ular ish paytida yirtilmaydi yoki teshilmaydi va ishingiz tugaguniga qadar qo'llaringizni toza va himoyalangan holda saqlaydi. Ehtimol, siz nitril bilan allergik reaktsiyalarning oldini olishingiz kerak yoki neopren bilan kimyoviy moddalardan himoya qilishingiz kerak - bizda sizning jamoangizdagi har bir kishiga mos keladigan o'lchamdagi bir martalik ish qo'lqoplari mavjud.
+              {t(`mainTopP2`)}
               </p>
               <p>
-              Yordam kerakmi yoki butun jamoa uchun ulgurji buyurtma berishga tayyormisiz? <u>Biz bilan bog'laning</u> va biz sizga bugun yordam beramiz!
+              {t(`mainTopP4`)}
               </p>
             </div>
             <a href="/contact">
-              <button>HARID QILISH</button>
+              <button>{t(`mainTopBtn`)}</button>
             </a>
           </div>
         </div>
         <div id="MainFeatureProducts">
-          <h2>Bizning mahsulotlarimizga qarang</h2>
+          <h2>{t(`mainProductH1`)}</h2>
 
           <div id="MainProductsContainer">
             {ProductGloves.map((item) => (
@@ -66,7 +68,7 @@ const MainBottom = () => {
             ))}
           </div>
           <a href="#">
-            <button>MAHSULOTLAR KATALOGI</button>
+            <button>{t(`mainProductBtn`)}</button>
           </a>
         </div>
       </div>

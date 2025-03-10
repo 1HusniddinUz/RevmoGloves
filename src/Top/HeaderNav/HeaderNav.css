@@ -18,7 +18,7 @@
 }
 #HeaderNav .container #HeaderLogo
 {
-    width: 15%;
+    width: 20%;
 }
 #HeaderNav .container #HeaderLogo h1
 {
@@ -50,7 +50,7 @@
 }
 #HeaderNav .container #HeaderSocialLinks
 {
-    width: 15%;
+    width: 20%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -59,4 +59,12 @@
 {
     color: black;
     font-size: 1.6rem;
+}
+
+#HeaderNav .container #select
+{
+    border: 1px solid #333;
+    background-color: transparent;
+    color: black;
+    padding: 7px 15px;
 }
