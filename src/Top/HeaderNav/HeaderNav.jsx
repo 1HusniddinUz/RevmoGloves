@@ -5,21 +5,21 @@ const HeaderNav = () => {
     <div id="HeaderNav">
       <div className="container">
         <div id="HeaderLogo">
-          <h1>#RevmoGloves</h1>
+          <a href="/"><img src="https://i.ibb.co/Ld43pF77/image-removebg-preview-4.png" alt="CompanyLogo" style={{height: "60px"}} /></a>
         </div>
         <div id="HeaderTools">
           <ul>
             <li>
-              <a href="#Header">Home</a>
+              <a href="#Header">Bosh sahifa</a>
             </li>
             <li>
-              <a href="#MainTop">About</a>
+              <a href="#MainBottom">Biz haqimizda</a>
             </li>
             <li>
-              <a href="#MainBottom">Products</a>
+              <a href="#MainFeatureProducts">Mahsulotlar</a>
             </li>
             <li>
-              <a href="#Footer">Contact</a>
+              <a href="#Footer">Kontaktlar</a>
             </li>
           </ul>
         </div>

@@ -6,9 +6,9 @@ const ProductGloves = [
     id: 1,
     name: "Nitrile Gloves",
     description:
-      "Lateksga allergiyasi bor odamlar uchun yaxshi alternativa. Kimyoviy moddalarga va teshilishga chidamli.",
+      "Lateksga allergiyasi bor odamlar uchun yaxshi alternativa. Kimyoviyga va teshilishga yordam beradi.",
     image:
-      "https://www.gloves.com/cdn/shop/articles/pesticide_gloves.webp?v=1734468091&width=426",
+      `https://i.ibb.co/ycBn2QZs/1.jpg`,
   },
   {
     id: 2,
@@ -16,7 +16,7 @@ const ProductGloves = [
     description:
       "Tabiiy kauchukdan ishlab chiqariladi. Juda moslashuvchan va qulay",
     image:
-      "https://www.gloves.com/cdn/shop/articles/latex_gloves.webp?v=1734442824&width=426",
+      "https://i.ibb.co/NgTPhqM1/2.jpg ",
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ const ProductGloves = [
     description:
       "Sintetik materialdan ishlab chiqariladi. Nisbatan arzon, lekin kamroq mustahkam",
     image:
-      "https://www.gloves.com/cdn/shop/articles/best_glove_for_oil.webp?v=1732624888&width=426",
+      "https://i.ibb.co/9kz2R1wF/3.jpg",
   },
 ];
 const MainBottom = () => {
@@ -35,40 +35,24 @@ const MainBottom = () => {
           <div id="FeatureGloves"></div>
           <div id="FeatureGlovesInfo">
             <div id="FeatureGlovesText">
-              <h2>Choose the right work gloves for the job</h2>
+              <h2>Ish uchun to'g'ri ish qo'lqoplarini tanlang</h2>
               <p>
-                We don’t need to tell you that using the appropriate gloves for
-                your specific work environment is critical. We simply make sure
-                that securing them is as easy as possible. Browse our selection
-                of rubber gloves and get your order sent to you in just a couple
-                of clicks. Here on our website, you can get all the safety and
-                use information you need without the chemistry lesson or small
-                print - whether you know exactly what you need or if you could
-                use some direction, we’re here to help.
+              Muayyan ish muhitingiz uchun mos qo'lqoplardan foydalanish muhimligini sizga aytishimiz shart emas. Biz ularni himoya qilish imkon qadar oson ekanligiga ishonch hosil qilamiz. Rezina qo'lqoplar tanlovimizni ko'rib chiqing va bir necha marta bosish orqali buyurtmangizni sizga yuboring. Bu yerda bizning veb-saytimizda siz kimyo darsisiz yoki kichik bosma nashrlarsiz o‘zingizga kerak bo‘lgan barcha xavfsizlik va foydalanish ma’lumotlarini olishingiz mumkin – aniq nima kerakligini bilasizmi yoki biror yo‘nalishdan foydalanishingiz mumkinmi, biz yordam berishga tayyormiz.
               </p>
               <p>
-                No matter whether you need nitrile gloves or latex gloves,
-                powder free or waterproof, or a snug fit or extra grip, you can
-                find the right pair at Gloves.com. We only stock tested, good
-                quality rubber gloves that are made of material that won’t tear
-                or puncture when you’re on the job, and will keep your hands
-                clean and protected until your work is done. Perhaps you need to
-                prevent allergic reactions with nitrile, or you need to protect
-                from chemicals with neoprene - we’ve got disposable work gloves
-                in sizes that fit every person on your team.
+              Sizga nitril qo'lqoplar yoki lateks qo'lqoplar, changsiz yoki suv o'tkazmaydigan qo'lqoplar yoki mahkam o'rinli yoki qo'shimcha tutqich kerak bo'ladimi, Gloves.com saytida to'g'ri juftlikni topishingiz mumkin. Bizda faqat sinovdan o'tgan, yaxshi sifatli rezina qo'lqoplar mavjud bo'lib, ular ish paytida yirtilmaydi yoki teshilmaydi va ishingiz tugaguniga qadar qo'llaringizni toza va himoyalangan holda saqlaydi. Ehtimol, siz nitril bilan allergik reaktsiyalarning oldini olishingiz kerak yoki neopren bilan kimyoviy moddalardan himoya qilishingiz kerak - bizda sizning jamoangizdagi har bir kishiga mos keladigan o'lchamdagi bir martalik ish qo'lqoplari mavjud.
               </p>
               <p>
-                Need help or ready to place a wholesale order for the whole
-                team? <u>Get in touch with us</u> and we’ll help you out today!
+              Yordam kerakmi yoki butun jamoa uchun ulgurji buyurtma berishga tayyormisiz? <u>Biz bilan bog'laning</u> va biz sizga bugun yordam beramiz!
               </p>
             </div>
             <a href="/contact">
-              <button>SHOP NOW</button>
+              <button>HARID QILISH</button>
             </a>
           </div>
         </div>
         <div id="MainFeatureProducts">
-          <h2>See Our Resources</h2>
+          <h2>Bizning mahsulotlarimizga qarang</h2>
 
           <div id="MainProductsContainer">
             {ProductGloves.map((item) => (
@@ -82,7 +66,7 @@ const MainBottom = () => {
             ))}
           </div>
           <a href="#">
-            <button>VISIT THE BLOG</button>
+            <button>MAHSULOTLAR KATALOGI</button>
           </a>
         </div>
       </div>

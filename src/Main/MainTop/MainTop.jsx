@@ -37,11 +37,11 @@ const MainTop = () => {
         <div id="MainTopHero">
             
             <div id="MainHeroPromo">
-                <h3>SHOP HIGH-QUALITY GLOVES</h3>
-                <h1>Save up to 50%</h1>
-                <p>High-quality gloves for different industries. Check out the nitrile, vinyl, latex, rubber, and many other options of gloves.</p>
+                <h3>YUKORI SIFATLI QOʻLQOPLAR SOTIB OLISH</h3>
+                <h1>50% gacha saqlaning</h1>
+                <p>Turli sohalar uchun yuqori sifatli qo'lqoplar. Nitril, vinil, lateks, kauchuk va boshqa ko'plab qo'lqop variantlarini ko'rib chiqing.</p>
                 <a href="/contact" >
-                    <button>CHECK NOW</button>
+                    <button>HOZIROQ TEKSHIRING</button>
                 </a>
             </div>
             <div id="MainHero_Overlay"></div>
