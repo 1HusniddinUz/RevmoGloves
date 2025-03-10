@@ -58,7 +58,7 @@ const Footer = () => {
             <div id="FooterDataSCard">
               <h4>
                 {"Location"}
-                <a href="/" target="_blank" rel="noopener noreferrer">
+                <a href="https://maps.google.com/maps?q=39.751372,64.453918&ll=39.751372,64.453918&z=16" target="_blank" rel="noopener noreferrer">
                   <i
                     style={{ fontSize: "1rem" }}
                     className="fa-solid fa-location-dot"

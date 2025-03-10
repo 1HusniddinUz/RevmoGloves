@@ -81,7 +81,6 @@ const MainBottom = () => {
               </div>
             ))}
           </div>
-          
           <a href="#">
             <button>VISIT THE BLOG</button>
           </a>
