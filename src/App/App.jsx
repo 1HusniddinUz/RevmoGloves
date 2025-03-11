@@ -4,9 +4,9 @@ import Main from "../Main/Main/Main"
 import Bottom from "../Bottom/Footer/Footer"
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
-import translationsEn from "../locale/translationsEn";
-import translationsRu from "../locale/translationsRu";
-import translationsUz from "../locale/translationsUz";
+import translationsEn from "../locales/translationsEn";
+import translationsRu from "../locales/translationsRu";
+import translationsUz from "../locales/translationsUz";
 
 i18n.use(initReactI18next).init({
   resources: {
