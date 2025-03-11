@@ -27,7 +27,7 @@ const Footer = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {t(`footerEmail`)}: example@gmail.com
+                    {t(`footerEmail`)}: mainaccount@gmail.com
                   </a>
                 </li>
               </ul>
@@ -50,7 +50,7 @@ const Footer = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {t(`footerEmail`)} example@gmail.com
+                    {t(`footerEmail`)} mainaccount@gmail.com
                   </a>
                 </li>
               </ul>

@@ -51,8 +51,8 @@ const HeaderNav = ({changeLang}) => {
             color: "black"
           }}
           >
-            <option value="uz">Uzbek</option>
             <option value="en">English</option>
+            <option value="uz">Uzbek</option>
             <option value="ru">Russian</option>
           </select>
         </div>
