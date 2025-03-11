@@ -46,7 +46,7 @@ const HeaderNav = ({changeLang}) => {
           defaultValue="en"
           style={{
             backgroundColor: "transparent",
-            border: "1px solid #333",
+            border: "1px solid #000",
             padding: "7px 20px",
             color: "black"
           }}
