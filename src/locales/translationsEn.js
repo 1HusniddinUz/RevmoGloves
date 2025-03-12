@@ -1,28 +1,54 @@
 const translationsEn = {
-    home: "Home",
-    about: "About Us",
-    products: "Products",
-    contact: "Contacts",
-    quotes: "Move Freely with Us",
-    headerMainSpan: "BUY HIGH-QUALITY GLOVES",
-    headerMainH3: "Save Up to 50%",
-    headerMainP: "Explore high-quality gloves for various industries. Check out nitrile, vinyl, latex, rubber, and many more glove options.",
-    headerMainBtn: "CHECK NOW",
-    mainTopH3: "Choose the Right Work Gloves",
-    mainTopP1: "You already know how important it is to use gloves suited to your specific work environment. We make sure protection is as easy as possible. Browse our selection of rubber gloves and place your order with just a few clicks. On our website, you can find all the safety and usage information you need—whether you're working in a chemistry lab or a small print shop. Whether you know exactly what you need or need guidance, we are here to help.",
-    mainTopP2: "Whether you need nitrile or latex gloves, powder-free or waterproof gloves, tight-fitting or extra-grip gloves, you can find the perfect pair at Gloves.com. We offer only tested, high-quality rubber gloves that won't tear or puncture during work, keeping your hands clean and protected until the job is done. If you need to avoid allergic reactions with nitrile or protect against chemicals with neoprene, we have single-use gloves in all sizes to fit everyone on your team.",
-    mainTopP3: "No matter if you need nitrile or latex gloves, powder-free or waterproof gloves, tight-fitting or extra-grip gloves, Gloves.com has the right pair for you. Our gloves are tested for durability, ensuring they don’t tear or puncture while working. Whether you're looking to prevent allergic reactions with nitrile or protect against chemicals with neoprene, we offer gloves for every team member.",
-    mainTopP4: "Need help or ready to place a bulk order for your team? Contact us today, and we’ll assist you!",
-    mainTopBtn: "SHOP NOW",
-    mainProductH1: "Explore Our Products",
-    mainProductBtn: "PRODUCT CATALOG",
-    footerH31: "Contacts",
-    footerH32: "Address",
-    footerH33: "About Us",
-    footerPhone: "Tel: ",
-    footerPosition: "General Manager: ",
-    footerPosition2: "Manager: ",
-    footerEmail: "Email: ",
-    footerAbout: "All About",
+  home: "Home",
+  about: "About Us",
+  products: "Products",
+  contact: "Contact",
+  quotes: "Move freely with us",
+  headerMainSpan:
+    "Physiotherapeutic Revmo-Gloves – An Innovative Solution for Healthy Joints",
+  headerMainH3: "Relieve Pain and Inflammation!",
+  headerMainP:
+    "Physiotherapeutic Revmo-Gloves are an innovative solution designed for rheumatoid arthritis, osteoarthritis, and Raynaud’s disease. They protect your joints, improve blood circulation, and reduce pain!",
+  headerMainBtn: "LEARN MORE",
+  headerMainH31: "Why Choose Revmo Gloves?",
+  headerMainP1:
+    "✅ Special heat-retaining fabric – breathable nylon material ensures comfort. <br />✅ Ultrasound therapy – deeply warms the joints through electrodes and reduces pain.<br />✅ Improves blood circulation – helps prevent small blood vessel spasms.<br />✅ Reduces swelling and redness – enhances microcirculation and alleviates inflammation.<br />✅ Convenient for daily use – suitable for people of all ages and professions.",
+  mainTopH3: "Physiotherapeutic Revmo-Gloves",
+  mainTopP1:
+    "Physiotherapeutic Revmo-Gloves are an innovative development in rheumatology, designed for treating rheumatoid arthritis, osteoarthritis, and Raynaud’s disease, which cause pain in the hand joints. These gloves provide warmth, anti-inflammatory effects, improved microcirculation, and pain relief. They are made of nylon, a breathable, elastic, and heat-retaining material. Ultrasonic electrodes are embedded in the proximal and phalangeal joints, which, through ultrasonic vibrations, improve blood circulation, reduce swelling, redness, and pain, and help prevent pathological processes.",
+  mainTopP2: "",
+  mainTopP3: "",
+  mainTopP4:
+    "Need assistance or ready to place a bulk order for your team? Contact us today, and we’ll be happy to help!",
+  mainTopBtn: "BUY NOW",
+  mainProductH1: "Explore Our Products",
+  mainProductBtn: "PRODUCT CATALOG",
+  footerH31: "Contacts",
+  footerH32: "Address",
+  footerH33: "About Us",
+  footerPhone: "Phone: ",
+  footerPosition: "Head Manager: ",
+  footerPosition2: "Manager: ",
+  footerEmail: "Email: ",
+  footerAbout: "All About",
+
+  // Translations for gloves
+  gloves: {
+    nitrile: {
+      name: "Nitrile Gloves",
+      description:
+        "A great alternative for those allergic to latex. Provides protection against chemicals and punctures.",
+    },
+    latex: {
+      name: "Latex Gloves",
+      description: "Made from natural rubber. Highly flexible and comfortable.",
+    },
+    vinyl: {
+      name: "Vinyl Gloves",
+      description:
+        "Made from synthetic material. More affordable but less durable.",
+    },
+  },
 };
+
 export default translationsEn;

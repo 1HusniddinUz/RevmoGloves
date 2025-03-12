@@ -1,0 +1,100 @@
+@media screen and (max-width:480px){
+    header
+    {
+        width: 100%;
+    }
+    #HeaderMain
+    {
+        width: 100%;
+    }
+    #HeaderContent 
+    {
+        width: 100%;
+        height: 60vh;
+        text-align: center;
+        align-content: center;
+    }
+    #HeaderContent h1 span
+    {
+        font-size: 3.5rem;
+    }
+    #HeaderContent h1
+    {
+        font-size: 1.5rem;
+    }
+}
+@media screen and (min-width:481px) and (max-width:768px){
+    header
+    {
+        width: 100%;
+    }
+    #HeaderMain
+    {
+        width: 100%;
+    }
+    #HeaderContent 
+    {
+        width: 100%;
+        height: 60vh;
+        text-align: center;
+        align-content: center;
+    }
+    #HeaderContent h1 span
+    {
+        font-size: 3.5rem;
+    }
+    #HeaderContent h1
+    {
+        font-size: 1.6rem;
+    }
+}
+@media screen and (min-width:769px) and (max-width:1024px){
+    header
+    {
+        width: 100%;
+    }
+    #HeaderMain
+    {
+        width: 100%;
+    }
+    #HeaderContent 
+    {
+        width: 100%;
+        height: 60vh;
+        text-align: center;
+        align-content: center;
+    }
+    #HeaderContent h1 span
+    {
+        font-size: 4.5rem;
+    }
+    #HeaderContent h1
+    {
+        font-size: 1.8rem;
+    }
+}
+@media screen and (min-width:1025px) and (max-width:1440px){
+    header
+    {
+        width: 100%;
+    }
+    #HeaderMain
+    {
+        width: 100%;
+    }
+    #HeaderContent 
+    {
+        width: 100%;
+        height: 60vh;
+        text-align: center;
+        align-content: center;
+    }
+    #HeaderContent h1 span
+    {
+        font-size: 5rem;
+    }
+    #HeaderContent h1
+    {
+        font-size: 2rem;
+    }
+}

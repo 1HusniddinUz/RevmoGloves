@@ -5,27 +5,22 @@ import { useTranslation } from "react-i18next";
 const ProductGloves = [
   {
     id: 1,
-    name: "Nitrile Gloves",
-    description:
-      "Lateksga allergiyasi bor odamlar uchun yaxshi alternativa. Kimyoviyga va teshilishga yordam beradi.",
-    image:
-      `https://i.ibb.co/ycBn2QZs/1.jpg`,
+    key: `Nitril qoʻlqop`,
+    image: "https://i.ibb.co/ycBn2QZs/1.jpg",
+    description: "Lateksga allergiyasi bor odamlar uchun yaxshi alternativa. Kimyoviyga va teshilishga yordam beradi."
   },
   {
     id: 2,
-    name: "Latex Gloves",
-    description:
-      "Tabiiy kauchukdan ishlab chiqariladi. Juda moslashuvchan va qulay",
-    image:
-      "https://i.ibb.co/NgTPhqM1/2.jpg ",
+    name: `Lateks qoʻlqop`,
+    image: "https://i.ibb.co/NgTPhqM1/2.jpg",
+    description: "Tabiiy kauchukdan ishlab chiqariladi. Juda moslashuvchan va qulay"
+
   },
   {
     id: 3,
-    name: "Vinyl Gloves",
-    description:
-      "Sintetik materialdan ishlab chiqariladi. Nisbatan arzon, lekin kamroq mustahkam",
-    image:
-      "https://i.ibb.co/9kz2R1wF/3.jpg",
+    name: `Vinil qoʻlqop`,
+    image: "https://i.ibb.co/9kz2R1wF/3.jpg",
+    description: "Sintetik materialdan ishlab chiqariladi. Nisbatan arzon, lekin kamroq mustahkam"
   },
 ];
 const MainBottom = () => {
@@ -38,15 +33,9 @@ const MainBottom = () => {
           <div id="FeatureGlovesInfo">
             <div id="FeatureGlovesText">
               <h2>{t(`mainTopH3`)}</h2>
-              <p>
-              {t(`mainTopP1`)}
-              </p>
-              <p>
-              {t(`mainTopP2`)}
-              </p>
-              <p>
-              {t(`mainTopP4`)}
-              </p>
+              <p>{t(`mainTopP1`)}</p>
+              <p>{t(`mainTopP2`)}</p>
+              <p>{t(`mainTopP4`)}</p>
             </div>
             <a href="/contact">
               <button>{t(`mainTopBtn`)}</button>
@@ -57,15 +46,18 @@ const MainBottom = () => {
           <h2>{t(`mainProductH1`)}</h2>
 
           <div id="MainProductsContainer">
-            {ProductGloves.map((item) => (
-              <div key={item.id} id="ProductGloves">
-                <img src={item.image} alt={item.name} loading="lazy" />
-                <div id="GlovesText">
-                  <h3>{item.name}</h3>
-                  <p>{item.description}</p>
+            {ProductGloves.map((glove) => {
+              console.log("glove.key:", glove.key);
+              return (
+                <div key={glove.id} id="ProductGloves">
+                  <img src={glove.image} alt={glove.name} loading="lazy" />
+                  <div id="GlovesText">
+                    <h3>{glove.name}</h3>
+                    <p>{glove.description}</p>
+                  </div>
                 </div>
-              </div>
-            ))}
+              );
+            })}
           </div>
           <a href="#">
             <button>{t(`mainProductBtn`)}</button>
