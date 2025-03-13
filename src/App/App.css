@@ -24,3 +24,7 @@ a , li
     font-weight: normal;
     font-style: normal;
 }
+#App
+{
+    overflow: hidden !important;
+}

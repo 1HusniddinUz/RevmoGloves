@@ -31,12 +31,12 @@ const HeaderNav = ({ changeLang }) => {
   return (
     <div id="HeaderNav">
       <div className="container">
-        <div id="HeaderLogo">
+        <div id="HeaderLogo" style={{alignContent: "center"}}>
           <a href="/">
             <img
-              src="https://i.ibb.co/Ld43pF77/image-removebg-preview-4.png"
+              src="https://i.ibb.co/cXXyHF2d/79c23f80-dbe4-4072-b777-a6e8a75d53d6-removalai-preview.png"
               alt="CompanyLogo"
-              style={{ height: "45px" }}
+              style={{ height: "80px" }}
             />
           </a>
         </div>

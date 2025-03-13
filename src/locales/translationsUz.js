@@ -14,7 +14,7 @@ const translationsUz = {
     mainTopP1: "“Fizioterapevtik revmo-qo‘lqop”  revmatologiya sohasida qo‘l – panja bo‘g‘imida og‘riqlar bilan kechuvchi revmatoidli artrit, osteoartrit va kichik tomirlar spazmi bilan kechuvchi reyno kasalliklari uchun mo‘ljallangan bo‘lib, bo‘g‘imlarni isituvchi, yallig‘lanishga qarshi, mikrosirkulyatsiyani yaxshilovchi, shishlarni kamaytiruvchi, og‘riq qoldiruvchi innovatsion ishlanma bo‘lib hisoblanadi. Qo‘lqop uchun tanlangan mato neylon – havo o‘tkazuvchi, issiqlikni saqlovchi elastik xususiyatga ega bo‘lib, proksimal va panja bo‘g‘imlariga mos ravishda ultratovush elektrodlar joylashtiriladi. Natijada ultratovush tebranish ta’siri orqali qon aylanishini yaxshilovchi, shish, qizarish, og‘riq kabi patologik jarayonlarni davolashga va ularni oldini olishga qaratilgan.",
     mainTopP2: "",
     mainTopP3: "",
-    mainTopP4: "Yordam kerakmi yoki butun jamoa uchun ulgurji buyurtma berishga tayyormisiz? Biz bilan bog'laning va biz sizga bugun yordam beramiz!",
+    // mainTopP4: "Yordam kerakmi yoki butun jamoa uchun ulgurji buyurtma berishga tayyormisiz? Biz bilan bog'laning va biz sizga bugun yordam beramiz!",
     mainTopBtn: "HARID QILISH",
     mainProductH1: "Bizning mahsulotlarimizga qarang",
     mainProductBtn: "MAHSULOTLAR KATALOGI",

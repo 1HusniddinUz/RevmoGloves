@@ -45,16 +45,10 @@ const MainTop = () => {
           <p>
             {t(`headerMainP`)}
           </p>
-          <a href="/contact">
-            <button>{t(`headerMainBtn`)}</button>
-          </a>
         </div>
         <div id="MainHeroPromo">
           <h1>{t(`headerMainH31`)}</h1>
           <p dangerouslySetInnerHTML={{ __html: t("headerMainP1") }}></p>
-          <a href="/contact">
-            <button>{t(`headerMainBtn`)}</button>
-          </a>
         </div>
         <div id="MainHero_Overlay"></div>
       </div>

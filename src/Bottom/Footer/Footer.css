@@ -19,7 +19,7 @@ footer #FooterContainer
 }
 #FooterData #FooterDataCard
 {
-    width: 30%;
+    width: 50%;
     height: auto;
 }
 #FooterData #FooterDataCard #FooterDataSCard
@@ -46,22 +46,15 @@ footer #FooterContainer
 {
     color: #80878D;
 }
+
 #FooterData #FooterDataCard #FooterDataSCard ul .AboutCompany
 {
     color: #80878D;
 
 }
- #FooterData #FooterDataCard #FooterDataSCard .AboutCompany
-{
-    line-height: 1.5; /* Matn oralig'ini tartibga solish */
-    display: block; /* Agar inline bo'lsa, blok qilish */
-    overflow: hidden; /* Kerak bo'lsa, ortiqcha bo'laklarni yashirish */
-    word-wrap: break-word; /* So'zlarni joylashiga mos tushirish */
-    height: auto !important;
-}
-№FooterData #FooterDataCard #FooterDataSCard a i
+#FooterData #FooterDataCard #FooterDataSCard a i
 {
     color: white;
     margin: 0px 5px;
     font-size: 1.6rem;
-}
+} 

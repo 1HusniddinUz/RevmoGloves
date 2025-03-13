@@ -18,8 +18,8 @@ const translationsEn = {
     "Physiotherapeutic Revmo-Gloves are an innovative development in rheumatology, designed for treating rheumatoid arthritis, osteoarthritis, and Raynaud’s disease, which cause pain in the hand joints. These gloves provide warmth, anti-inflammatory effects, improved microcirculation, and pain relief. They are made of nylon, a breathable, elastic, and heat-retaining material. Ultrasonic electrodes are embedded in the proximal and phalangeal joints, which, through ultrasonic vibrations, improve blood circulation, reduce swelling, redness, and pain, and help prevent pathological processes.",
   mainTopP2: "",
   mainTopP3: "",
-  mainTopP4:
-    "Need assistance or ready to place a bulk order for your team? Contact us today, and we’ll be happy to help!",
+  // mainTopP4:
+  //   "Need assistance or ready to place a bulk order for your team? Contact us today, and we’ll be happy to help!",
   mainTopBtn: "BUY NOW",
   mainProductH1: "Explore Our Products",
   mainProductBtn: "PRODUCT CATALOG",

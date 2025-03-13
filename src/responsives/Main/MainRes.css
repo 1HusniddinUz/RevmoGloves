@@ -14,13 +14,13 @@
     }
     #MainTopHero #MainHeroPromo:nth-child(2)
     {
-        right: 0px !important;
-        bottom: 0px !important;
+        right: 20px !important;
+        bottom: 20px !important;
     }
     #MainTopHero #MainHeroPromo
     {
         height:  370px !important;
-        margin: 10px !important;
+        margin: 20px 0px 0px 20px !important;
         width: 60% !important;
         padding: 5px !important;
     }
