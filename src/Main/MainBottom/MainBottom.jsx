@@ -13,10 +13,10 @@ const ProductGloves = [
     name: "Гидрокортизон",
     image: "https://ae04.alicdn.com/kf/Sc2069f92f1124d84b8a083c5c36da9820.jpg_640x640.jpg",
   },
-  { id: 3, name: "Vinil qoʻlqop", image: "https://img.joomcdn.net/ec7f4e526900efd741c50c1250fe872d6fa9bb96_original.jpeg" },
-  { id: 4, name: "Lateks qoʻlqop", image: "https://ae04.alicdn.com/kf/Sf9bdf1ac5cf84f7686fc292604683c8az.jpg" },
+  { id: 3, name: "Vinil qoʻlqop", image: "https://i.ibb.co/4gwGYrQB/4.png" },
+  { id: 4, name: "Lateks qoʻlqop", image: "https://i.ibb.co/rRfNTLG9/1.png" },
   { id: 5, name: "Tibbiy qoʻlqop", image: "https://ae04.alicdn.com/kf/S3973f7b540384a91997bd817c574188eS.jpg_640x640.jpg" },
-  { id: 6, name: "Nitril qoʻlqop", image: "https://ae04.alicdn.com/kf/HTB1G1DgT4TpK1RjSZR0q6zEwXXab.jpg" },
+  { id: 6, name: "Nitril qoʻlqop", image: "https://i.ibb.co/r2BTpZQd/3.png" },
   { id: 7, name: "Qoplamali qoʻlqop", image: "https://i.ebayimg.com/thumbs/images/g/4DoAAOSwY-1mvNno/s-l1200.jpg" },
   { id: 8, name: "Ishchi qoʻlqop", image: "https://i.ibb.co/sJQhC49V/gloves2.jpg" },
 ];
