@@ -24,38 +24,16 @@ const Footer = () => {
                 <li>{t(`footerPosition`)} Shokhida Naimova</li>
                 <li>
                   <a
-                    href="https://example@gmail.com"
+                    href="https://naimova-90@mail.ru"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {t(`footerEmail`)}: mainaccount@gmail.com
+                    {t(`footerEmail`)}: naimova-90@mail.ru
                   </a>
                 </li>
               </ul>
             </div>
-            <div id="FooterDataSCard">
-              <ul>
-                <li>
-                  <a
-                    href="tel:+998906371001"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {t(`footerPhone`)} +998(90)-637-10-01
-                  </a>
-                </li>
-                <li>{t(`footerPosition2`)} Shokhida Naimova</li>
-                <li>
-                  <a
-                    href="https://example@gmail.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {t(`footerEmail`)} mainaccount@gmail.com
-                  </a>
-                </li>
-              </ul>
-            </div>
+           
           </div>
           <div id="FooterDataCard">
             <div id="FooterDataSCard">
