@@ -51,7 +51,7 @@ const HeaderNav = ({ changeLang }) => {
               <a href="#MainBottom" onClick={closeMenu}>{t("about")}</a>
             </li>
             <li>
-              <a href="#MainFeatureProducts" onClick={closeMenu}>{t("products")}</a>
+              <a href="#RevmoProducts" onClick={closeMenu}>{t("products")}</a>
             </li>
             <li>
               <a href="#Footer" onClick={closeMenu}>{t("contact")}</a>
@@ -66,7 +66,7 @@ const HeaderNav = ({ changeLang }) => {
             <a href="https://www.instagram.com/dr.shohida_anvarovna/?igsh=cml4ZDd2bGY0M256" target="_blank" rel="noopener noreferrer">
               <i className="fa-brands fa-instagram"></i>
             </a>
-            <a href="https://t.me/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
               <i className="fa-brands fa-facebook"></i>
             </a>
             <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
